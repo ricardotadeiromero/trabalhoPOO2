@@ -5,7 +5,7 @@ from model.pessoa import Pessoa
 
 @dataclass
 class Professor(Pessoa):
-    area: str
+    especialidade: str  # Alterado de 'area' para 'especialidade'
     disciplinas_ministradas: List[str] = field(default_factory=list)  # nomes das disciplinas
 
     def ministrar_disciplina(self, nome_disciplina: str):
@@ -14,7 +14,7 @@ class Professor(Pessoa):
 
     def exibir(self):
         super().exibir()
-        print(f"Tipo: Professor\nÁrea: {self.area}")
+        print(f"Tipo: Professor\nEspecialidade: {self.especialidade}")  # Alterado de 'area' para 'especialidade'
         if not self.disciplinas_ministradas:
             print("Nenhuma disciplina ministrada pelo professor.")
         else:
