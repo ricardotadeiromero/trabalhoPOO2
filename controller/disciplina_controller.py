@@ -4,7 +4,7 @@ from service.disciplina_service import DisciplinaService
 
 
 class DisciplinaController:
-    def __init__(self, disciplina_service: DisciplinaService):
+    def __init__(self, disciplina_service):
         self.disciplina_service = disciplina_service
 
     def cadastrar_disciplina(self):
