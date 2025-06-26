@@ -1,0 +1,11 @@
+[
+    {
+        "nome": "Ricardo",
+        "cpf": "484.354.788-31",
+        "dt_nasc": "2005-12-20",
+        "especialidade": "Matemática",
+        "disciplinas_ministradas": [
+            "Cálculo 1"
+        ]
+    }
+]
