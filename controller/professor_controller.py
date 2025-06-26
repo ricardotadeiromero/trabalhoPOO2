@@ -3,7 +3,7 @@ from service.professor_service import ProfessorService
 
 
 class ProfessorController:
-    def __init__(self, professor_service: ProfessorService):
+    def __init__(self, professor_service):
         self.professor_service = professor_service
 
     def cadastrar_professor(self):
