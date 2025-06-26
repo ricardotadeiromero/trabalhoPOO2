@@ -1,1 +1,16 @@
-[]
+[
+    {
+        "nome": "Turma A",
+        "alunos": [
+            {
+                "nome": "Ricardo",
+                "cpf": "123123",
+                "dt_nasc": "2005-12-20",
+                "matricula": "1"
+            }
+        ],
+        "disciplinas_professores": [],
+        "atividades": [],
+        "professores": []
+    }
+]

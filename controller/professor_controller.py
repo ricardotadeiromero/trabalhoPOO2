@@ -53,9 +53,7 @@ class ProfessorController:
             if opcao == "1":
                 self.cadastrar_professor()
             elif opcao == "2":
-                professores = self.listar_professores()
-                for prof in professores:
-                    print(f"Nome: {prof.nome}, CPF: {prof.cpf}, Especialidade: {prof.especialidade}")
+                self.listar_professores()
             elif opcao == "3":
                 self.buscar_professor()
             elif opcao == "4":
