@@ -3,7 +3,7 @@ from service.aluno_service import AlunoService
 
 
 class AlunoController:
-    def __init__(self, aluno_service: AlunoService):
+    def __init__(self, aluno_service):
         self.aluno_service = aluno_service
 
     def cadastrar_aluno(self):
