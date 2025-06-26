@@ -6,7 +6,7 @@ from service.turma_service import TurmaService
 
 
 class TurmaController:
-    def __init__(self, turma_service: TurmaService, aluno_service: AlunoService, professor_service: ProfessorService, disciplina_service: DisciplinaService):
+    def __init__(self, turma_service, aluno_service, professor_service, disciplina_service):
         self.turma_service = turma_service
         self.aluno_service = aluno_service
         self.professor_service = professor_service
